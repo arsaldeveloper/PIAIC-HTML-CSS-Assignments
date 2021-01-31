@@ -1,0 +1,191 @@
+@charset "utf-8";
+ul
+{
+    display: inline-block;
+    position: absolute;
+    padding-top: 7px;
+    padding-left: 420px
+    
+}
+ul > li
+{
+   display: inline-block;
+   padding-left: 30px;
+   font-size:18px;
+font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+
+
+} 
+.slider
+{
+width: 100%;
+height: 400px;
+margin-top: 10px;
+position: relative;
+background-color: purple;
+
+
+}
+.slider_img
+{
+position: absolute;
+width: 100%;
+height: 400px;
+}
+.slider_img img
+{
+height: 100%;
+height: 400px;
+}
+
+#i1, #i2,#i3
+{
+display: none;
+}
+.nav-dot
+{
+width: 100%;
+height: 11px;
+bottom: 12%;
+position: absolute;
+text-align: center;
+z-index: 99;
+}
+.dots
+{
+bottom: 95px;
+width: 18px;
+height: 18px;
+margin: 0 4px;
+position: relative;
+border-radius: 50%;
+display: inline-block;
+background: rgba(0,0,0,.6);
+}
+.slide_img
+{
+z-index: -1;
+}
+
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three
+{
+z-index: 9;
+}
+
+#i1:checked ~ .nav-dot #dot1,
+#i2:checked ~ .nav-dot #dot2,
+#i3:checked ~ .nav-dot #dot3
+{
+background: #fff;
+}
+
+.txt1
+{
+padding-left: 480px; 
+padding-top: 30px; 
+color: black; 
+font-size: 40px;
+ font-family:SanS-Serif;
+ font-weight: bolder;
+}
+.txt2
+{
+color: green; 
+font-size: 40px; 
+font-family: SanS-Serif;
+font-weight: bolder;
+}
+
+.img1
+{
+padding-top: 30px;
+padding-left: 90px
+}
+.p1
+{
+display: inline;
+padding-left: 115px;
+font-weight: bold;
+   font-family:SanS-Serif;
+}
+.p2
+{
+display: inline;
+padding-left: 155px;
+ font-weight: bold;
+   font-family:SanS-Serif;
+}
+.p3
+{
+display: inline;
+padding-left: 160px;
+font-weight: bold;
+font-family:SanS-Serif;
+}
+.p4
+{
+display: inline;
+padding-left: 140px;
+font-weight: bold;
+font-family:SanS-Serif;
+}
+.p5
+{
+display: inline;
+padding-left: 150px;
+font-weight: bold;
+font-family:SanS-Serif;
+}
+.p-class
+{
+margin-top: 20px;
+}
+
+.about-button
+{
+background-color: #FFBD1A; 
+height: 30px; width: 140px; 
+margin-top: 30px;
+margin-left: 48px;
+padding: 10px 0px 0px 40px;
+font-family:arial;
+font-weight: bold;
+cursor: pointer;
+
+}
+.services-block
+{
+display: inline;
+background-color: #F1F2F2 ; 
+height: 170px; width: 257px;
+margin-left: 40px ;
+float: left
+}
+
+#output {
+   width: 1170px;
+   height: 500px;
+   padding: 10px;
+}
+
+#output img {
+   display: none;
+   height: 500px; width: 1170px;
+}
+
+#output img:target {
+   display: inline;
+}
+
+#nav {
+   
+}
+
+#nav > li {
+   display: inline-block;
+   
+}
+
